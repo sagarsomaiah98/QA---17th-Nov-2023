@@ -1,1 +1,3 @@
-Janbask Training
+selenium is a open source tool
+java is a programming language
+jira is bug tracking tool
