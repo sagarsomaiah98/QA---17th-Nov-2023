@@ -6,6 +6,6 @@ public interface CentralBank {
 	public void savings();
 	public void loan();
 	public void creditcard();
-	public void kyc();
+	public void kyc() ;
 
 }
