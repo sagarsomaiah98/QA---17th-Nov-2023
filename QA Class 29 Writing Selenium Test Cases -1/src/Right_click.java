@@ -19,6 +19,13 @@ public class Right_click {
 		
 		driver.manage().window().maximize();
 		
+		WebElement righbutton=driver.findElement(By.xpath("//button[@id='rightClickBtn']"));
+		
+		Actions action = new Actions(driver);
+		
+		Thread.sleep(2000);
+		action.contextClick(righbutton).build().perform();//right click
+		
 	}
 
 }
