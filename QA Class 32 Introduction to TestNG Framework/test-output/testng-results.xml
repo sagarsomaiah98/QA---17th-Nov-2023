@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T21:06:34 GMT-05:00" name="Suite" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="86">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T21:06:34 GMT-05:00" name="Test" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="86">
+      <class name="Annotations.AnnotTest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Annotations.AnnotTest@48974e45]" started-at="2024-01-08T21:06:34 GMT-05:00" name="beforetest" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Annotations.AnnotTest@48974e45]" started-at="2024-01-08T21:06:34 GMT-05:00" name="beforeclass" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="m1()[pri:0, instance:Annotations.AnnotTest@48974e45]" started-at="2024-01-08T21:06:34 GMT-05:00" name="m1" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Annotations.AnnotTest@48974e45]" started-at="2024-01-08T21:06:34 GMT-05:00" name="afterclass" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Annotations.AnnotTest@48974e45]" started-at="2024-01-08T21:06:34 GMT-05:00" name="aftertest" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Annotations.AnnotTest -->
+      <class name="Annotations.Annotation_Examples">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="beforesuite" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="beforetest" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="beforeclass" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="intial()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="intial" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="method1()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="method1" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="teardown" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="method2()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="method2" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="intial()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="intial" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="teardown" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="afterclass" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="aftertest" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftesuite()[pri:0, instance:Annotations.Annotation_Examples@702b8b12]" started-at="2024-01-08T21:06:34 GMT-05:00" name="aftesuite" finished-at="2024-01-08T21:06:34 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftesuite -->
+      </class> <!-- Annotations.Annotation_Examples -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
