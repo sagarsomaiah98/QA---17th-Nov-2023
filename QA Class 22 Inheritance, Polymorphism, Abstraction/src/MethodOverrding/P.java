@@ -7,7 +7,7 @@ public class P {
 		System.out.println("car belongs to p");
 	}
 	
-	public void bike() {
+	protected void bike() {
 		
 		System.out.println("bike belongs to p");
 	}
