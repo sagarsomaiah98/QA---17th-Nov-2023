@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExpectedExceptionEx">
+      <class name="Retry.SauceTests">
         <methods>
-          <include name="test1"/>
+          <include name="ordertest"/>
+          <include name="logouttest"/>
         </methods>
-      </class> <!-- ExpectedExceptionEx -->
+      </class> <!-- Retry.SauceTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
