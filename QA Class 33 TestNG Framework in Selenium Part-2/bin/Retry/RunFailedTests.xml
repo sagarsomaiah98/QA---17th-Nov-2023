@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Rerun">
+
+	<listeners>
+	<listener class-name="Retry.MyTransform" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+		<class name="Retry.SauceTests" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Rerun -->
