@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceSuite">
+  <test thread-count="5" name="SauceTests">
+    <classes>
+      <class name="com.sauce.testcases.HomePageTest"/>
+      <class name="com.sauce.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- SauceTests -->
+</suite> <!-- SauceSuite -->

@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import com.sauce.pages.LoginPage;
 import com.sauce.testbase.TestBase;
+import com.sauce.util.TestUtil;
 
 public class LoginTest extends TestBase {
 	
@@ -25,6 +26,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage login= new LoginPage();
 		login.login("standard_user", "secret_sauce");
+		TestUtil.Screenshot();
 		
 	}
    
@@ -35,6 +37,7 @@ public class LoginTest extends TestBase {
   		
   		LoginPage login= new LoginPage();
   		login.login("username1", "secret_sauce1");
+  		TestUtil.Screenshot();
   		
   		assertEquals(login.errormsg.getText(), "Epic sadface: Username and password do not match any user in this service");
   		

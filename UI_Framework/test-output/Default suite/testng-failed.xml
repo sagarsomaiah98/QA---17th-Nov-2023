@@ -5,9 +5,9 @@
     <classes>
       <class name="com.sauce.testcases.AddtoCartTest">
         <methods>
+          <include name="filtertest"/>
           <include name="init"/>
           <include name="teardown"/>
-          <include name="addtocarttest"/>
         </methods>
       </class> <!-- com.sauce.testcases.AddtoCartTest -->
     </classes>

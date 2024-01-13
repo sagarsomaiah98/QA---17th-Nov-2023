@@ -1,25 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T21:09:01 GMT-05:00" name="Default suite" finished-at="2024-01-11T21:09:09 GMT-05:00" duration-ms="7757">
+  <suite started-at="2024-01-12T20:49:32 GMT-05:00" name="SauceSuite" finished-at="2024-01-12T20:50:08 GMT-05:00" duration-ms="35456">
     <groups>
     </groups>
-    <test started-at="2024-01-11T21:09:01 GMT-05:00" name="Default test" finished-at="2024-01-11T21:09:09 GMT-05:00" duration-ms="7757">
-      <class name="com.sauce.testcases.AddtoCartTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.AddtoCartTest@d29f28]" started-at="2024-01-11T21:09:01 GMT-05:00" name="init" finished-at="2024-01-11T21:09:07 GMT-05:00" duration-ms="5871" status="PASS">
+    <test started-at="2024-01-12T20:49:32 GMT-05:00" name="SauceTests" finished-at="2024-01-12T20:50:08 GMT-05:00" duration-ms="35456">
+      <class name="com.sauce.testcases.HomePageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:32 GMT-05:00" name="init" finished-at="2024-01-12T20:49:36 GMT-05:00" duration-ms="3397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addtocarttest()[pri:0, instance:com.sauce.testcases.AddtoCartTest@d29f28]" started-at="2024-01-11T21:09:07 GMT-05:00" name="addtocarttest" finished-at="2024-01-11T21:09:08 GMT-05:00" duration-ms="1285" status="PASS">
+        <test-method signature="filtertest()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:36 GMT-05:00" name="filtertest" finished-at="2024-01-12T20:49:38 GMT-05:00" duration-ms="2364" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addtocarttest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.AddtoCartTest@d29f28]" started-at="2024-01-11T21:09:08 GMT-05:00" name="teardown" finished-at="2024-01-11T21:09:09 GMT-05:00" duration-ms="500" status="PASS">
+        </test-method> <!-- filtertest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:38 GMT-05:00" name="teardown" finished-at="2024-01-12T20:49:39 GMT-05:00" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.sauce.testcases.AddtoCartTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:39 GMT-05:00" name="init" finished-at="2024-01-12T20:49:41 GMT-05:00" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="logouttest()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:41 GMT-05:00" name="logouttest" finished-at="2024-01-12T20:49:42 GMT-05:00" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:42 GMT-05:00" name="teardown" finished-at="2024-01-12T20:49:42 GMT-05:00" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:42 GMT-05:00" name="init" finished-at="2024-01-12T20:49:44 GMT-05:00" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyFacebook()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:44 GMT-05:00" name="verifyFacebook" finished-at="2024-01-12T20:49:47 GMT-05:00" duration-ms="3228" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[The filename, directory name, or volume label syntax is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:417)
+at java.base/java.io.File.getCanonicalPath(File.java:626)
+at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2702)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:801)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:834)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:742)
+at com.sauce.util.TestUtil.Screenshot(TestUtil.java:63)
+at com.sauce.testcases.HomePageTest.verifyFacebook(HomePageTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebook -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:47 GMT-05:00" name="teardown" finished-at="2024-01-12T20:49:48 GMT-05:00" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:48 GMT-05:00" name="init" finished-at="2024-01-12T20:49:50 GMT-05:00" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLinkedin()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:50 GMT-05:00" name="verifyLinkedin" finished-at="2024-01-12T20:49:53 GMT-05:00" duration-ms="2795" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[The filename, directory name, or volume label syntax is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:417)
+at java.base/java.io.File.getCanonicalPath(File.java:626)
+at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2702)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:801)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:834)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:742)
+at com.sauce.util.TestUtil.Screenshot(TestUtil.java:63)
+at com.sauce.testcases.HomePageTest.verifyLinkedin(HomePageTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:53 GMT-05:00" name="teardown" finished-at="2024-01-12T20:49:53 GMT-05:00" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:53 GMT-05:00" name="init" finished-at="2024-01-12T20:49:55 GMT-05:00" duration-ms="2482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyTwitter()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:49:55 GMT-05:00" name="verifyTwitter" finished-at="2024-01-12T20:50:01 GMT-05:00" duration-ms="5680" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Twitter] but found [Sauce Labs (@saucelabs) / X]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Twitter] but found [Sauce Labs (@saucelabs) / X]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.sauce.testcases.HomePageTest.verifyTwitter(HomePageTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.HomePageTest@37654521]" started-at="2024-01-12T20:50:01 GMT-05:00" name="teardown" finished-at="2024-01-12T20:50:01 GMT-05:00" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.HomePageTest -->
+      <class name="com.sauce.testcases.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:01 GMT-05:00" name="init" finished-at="2024-01-12T20:50:04 GMT-05:00" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="inValidLogin()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:04 GMT-05:00" name="inValidLogin" finished-at="2024-01-12T20:50:04 GMT-05:00" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:04 GMT-05:00" name="teardown" finished-at="2024-01-12T20:50:05 GMT-05:00" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:05 GMT-05:00" name="init" finished-at="2024-01-12T20:50:07 GMT-05:00" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validLogin()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:07 GMT-05:00" name="validLogin" finished-at="2024-01-12T20:50:08 GMT-05:00" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@7205765b]" started-at="2024-01-12T20:50:08 GMT-05:00" name="teardown" finished-at="2024-01-12T20:50:08 GMT-05:00" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.LoginTest -->
+    </test> <!-- SauceTests -->
+  </suite> <!-- SauceSuite -->
 </testng-results>

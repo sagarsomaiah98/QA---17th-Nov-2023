@@ -27,14 +27,18 @@ public class HomePage extends TestBase{
 	public WebElement remove;
 	
 
+	@FindBy(xpath="//a[normalize-space()='Twitter']")
+	public WebElement twitter;
 	
-	//public WebElement twitter=driver.findElement(By.xpath("//a[normalize-space()='Twitter']"));
+	@FindBy(xpath="//a[normalize-space()='Facebook']")
+	public WebElement facebook;
 	
-	//public WebElement facebook=driver.findElement(By.xpath("//a[normalize-space()='Facebook']"));
+    @FindBy(xpath="//a[normalize-space()='LinkedIn']")
+	public WebElement linkedin;
 	
-	//public WebElement linkedin=driver.findElement(By.xpath("//a[normalize-space()='LinkedIn']"));
-	
-
+    @FindBy(xpath="//a[@id='logout_sidebar_link']")
+  	public WebElement logout;
+  	
 	
 	public  HomePage() {
 		
@@ -52,6 +56,16 @@ public class HomePage extends TestBase{
 		
 	}
 	
+	public void removeFromCart() {
+		remove.click();
+	
+	}
+	
+	public void logout() {
+		menu.click();
+		logout.click();
+		
+	}
 	
 	
 
