@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="14.135">
+    <testcase classname="Cart Functionality" name="Add the items to cart" time="7.3">
+        <system-out><![CDATA[Given I launch the chrome browser and I navigate to the url "https://saucedemo.com".passed
+When I enter the username "standard_user" and enter the password "secret_sauce".passed
+And I click on login........................................................passed
+And I add the items to the cart.............................................passed
+Then I verify items is added to the cart....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="Valid Login Functionality" time="3.33">
+        <system-out><![CDATA[Given I launch the chrome browser and I navigate to the url "https://saucedemo.com".passed
+When I enter the username "standard_user" and enter the password "secret_sauce".passed
+And I click on login........................................................passed
+Then I am logged in Successfully............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="InValid Login Functionality" time="3.147">
+        <system-out><![CDATA[Given I launch the chrome browser and I navigate to the url "https://saucedemo.com".passed
+When I enter the username "username1" and enter the password "password1"....passed
+And I click on login........................................................passed
+Then error message is displayed.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

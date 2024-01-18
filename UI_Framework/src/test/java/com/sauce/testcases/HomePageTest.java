@@ -17,15 +17,15 @@ public class HomePageTest extends TestBase{
 	@BeforeMethod
 	public void init() throws IOException {
 		intialize();
+		LoginPage login= new LoginPage();
+		login.login("standard_user", "secret_sauce");
 	}
 	
 	
 	//@Test
 	public void addtocarttest() throws IOException {
 
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
-		
+	
 		HomePage homepage= new HomePage();
 		homepage.addtocart();
 		TestUtil.Screenshot();
@@ -35,8 +35,7 @@ public class HomePageTest extends TestBase{
 	
 	//@Test
 	public void removeitemtest() throws IOException {
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
+	
 		HomePage homepage= new HomePage();
 		homepage.addtocart();
 		homepage.removeFromCart();
@@ -48,8 +47,7 @@ public class HomePageTest extends TestBase{
 	
 	@Test
 	public void verifyTwitter() throws InterruptedException, IOException {
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
+
 		HomePage homepage= new HomePage();
 		homepage.twitter.click();
 		TestUtil.switchWindow();
@@ -62,8 +60,7 @@ public class HomePageTest extends TestBase{
 	
 	@Test
 public void verifyFacebook() throws IOException {
-	LoginPage login= new LoginPage();
-	login.login("standard_user", "secret_sauce");
+
 	HomePage homepage= new HomePage();
 	homepage.facebook.click();
 	TestUtil.switchWindow();
@@ -77,8 +74,7 @@ public void verifyFacebook() throws IOException {
 
 	@Test
 public void verifyLinkedin() throws IOException {
-	LoginPage login= new LoginPage();
-	login.login("standard_user", "secret_sauce");
+
 	HomePage homepage= new HomePage();
 	homepage.linkedin.click();
 	TestUtil.switchWindow();
@@ -91,8 +87,7 @@ public void verifyLinkedin() throws IOException {
 
 @Test
 public void filtertest() throws IOException {
-	LoginPage login= new LoginPage();
-	login.login("standard_user", "secret_sauce");
+
 	HomePage homepage= new HomePage();
 	
 	TestUtil.selectDropDown(homepage.filter, "Price (low to high)");
@@ -110,8 +105,7 @@ public void filtertest() throws IOException {
 
 public void logouttest() throws IOException {
 	
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
+	
 		HomePage homepage= new HomePage();
 		homepage.logout();
 		TestUtil.Screenshot();
